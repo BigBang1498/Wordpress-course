@@ -1,0 +1,1303 @@
+[02-Jul-2026 18:51:19 UTC] PHP Parse error:  syntax error, unexpected identifier "test", expecting ";" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 23
+[02-Jul-2026 18:51:42 UTC] PHP Parse error:  syntax error, unexpected identifier "test", expecting ";" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 23
+[02-Jul-2026 18:51:46 UTC] PHP Parse error:  syntax error, unexpected identifier "test", expecting ";" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 23
+[05-Jul-2026 17:14:30 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting identifier or variable or "{" or "$" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 66
+[05-Jul-2026 17:15:18 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting identifier or variable or "{" or "$" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 66
+[05-Jul-2026 17:16:30 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 67
+[05-Jul-2026 17:17:16 UTC] PHP Parse error:  Unclosed '{' on line 42 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 88
+[05-Jul-2026 17:17:23 UTC] PHP Parse error:  Unclosed '{' on line 42 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 88
+[05-Jul-2026 17:17:26 UTC] PHP Parse error:  Unclosed '{' on line 42 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 88
+[05-Jul-2026 17:17:36 UTC] PHP Parse error:  Unclosed '{' on line 42 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 88
+[05-Jul-2026 17:17:46 UTC] PHP Parse error:  Unclosed '{' on line 42 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 88
+[05-Jul-2026 17:17:52 UTC] PHP Parse error:  Unclosed '{' on line 42 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 88
+[05-Jul-2026 17:17:56 UTC] PHP Parse error:  Unclosed '{' on line 42 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 88
+[05-Jul-2026 17:18:31 UTC] PHP Parse error:  Unclosed '{' on line 42 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 88
+[05-Jul-2026 17:41:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_insert_update() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php:63
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/shortcodes.php(434): cmo_post_shortcode(Array, '', 'post_form')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(post_f...', 'do_shortcode_ta...', '\n<p>[test]</p>\n...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): do_shortcode('\n<p>[test]</p>\n...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<p>[test]</p>\n...', Array)
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-block.php(599): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-block.php(579): WP_Block->render()
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-block.php(579): WP_Block->render()
+#9 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/blocks.php(2383): WP_Block->render()
+#10 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/blocks.php(2466): render_block(Array)
+#11 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/block-template.php(291): do_blocks('<!-- wp:templat...')
+#12 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#13 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-loader.php(125): include('/home/PachAkuti...')
+#14 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(19): require_once('/home/PachAkuti...')
+#15 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#16 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 63
+[05-Jul-2026 17:42:26 UTC] PHP Warning:  Undefined array key "ID" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/post.php on line 5239
+[06-Jul-2026 18:04:21 UTC] PHP Warning:  Array to string conversion in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 60
+[06-Jul-2026 18:04:21 UTC] PHP Warning:  Array to string conversion in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 60
+[07-Jul-2026 14:45:01 UTC] PHP Parse error:  syntax error, unexpected variable "$page_title", expecting ")" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 52
+[07-Jul-2026 14:47:01 UTC] PHP Parse error:  syntax error, unexpected variable "$page_title", expecting ")" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 52
+[07-Jul-2026 14:49:01 UTC] PHP Parse error:  syntax error, unexpected variable "$page_title", expecting ")" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 52
+[07-Jul-2026 14:51:01 UTC] PHP Parse error:  syntax error, unexpected variable "$page_title", expecting ")" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 52
+[07-Jul-2026 14:53:01 UTC] PHP Parse error:  syntax error, unexpected variable "$function", expecting ":" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 52
+[07-Jul-2026 14:55:01 UTC] PHP Parse error:  syntax error, unexpected identifier "add_submenu_page" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 53
+[07-Jul-2026 14:57:21 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "fc_menu_page" not found or invalid function name in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(264): do_action('toplevel_page_i...')
+#3 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php on line 341
+[07-Jul-2026 14:59:30 UTC] PHP Parse error:  syntax error, unexpected variable "$page_title", expecting ")" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 53
+[07-Jul-2026 15:01:30 UTC] PHP Parse error:  syntax error, unexpected variable "$capability", expecting ")" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 53
+[07-Jul-2026 15:03:30 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 54
+[07-Jul-2026 15:04:28 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 54
+[08-Jul-2026 17:33:06 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 59
+[08-Jul-2026 17:33:08 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 59
+[09-Jul-2026 18:04:11 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 76
+[09-Jul-2026 18:43:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php:1834
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php(1787): do_settings_fields('intro_wp_menu_s...', 'cmo_settings_se...')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(89): do_settings_sections('intro_wp_menu_s...')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): cmo_settings_page('')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(264): do_action('my-menu_page_in...')
+#6 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php on line 1834
+[09-Jul-2026 18:48:04 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php:1834
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php(1787): do_settings_fields('intro_wp_menu_s...', 'cmo_settings_se...')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(89): do_settings_sections('intro_wp_menu_s...')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): cmo_settings_page('')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(264): do_action('my-menu_page_in...')
+#6 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php on line 1834
+[09-Jul-2026 18:48:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php:1834
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php(1787): do_settings_fields('intro_wp_menu_s...', 'cmo_settings_se...')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(89): do_settings_sections('intro_wp_menu_s...')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): cmo_settings_page('')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(264): do_action('my-menu_page_in...')
+#6 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php on line 1834
+[09-Jul-2026 18:52:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php:1834
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php(1787): do_settings_fields('intro_wp_menu_s...', 'cmo_settings_se...')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(89): do_settings_sections('intro_wp_menu_s...')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): cmo_settings_page('')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(264): do_action('my-menu_page_in...')
+#6 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/includes/template.php on line 1834
+[11-Jul-2026 18:09:33 UTC] PHP Parse error:  Unclosed '{' on line 77 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 104
+[11-Jul-2026 18:11:33 UTC] PHP Parse error:  Unclosed '{' on line 77 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 104
+[13-Jul-2026 03:55:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_by() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/user.php:2063
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(11): username_exists('my_username')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(589): include_once('/home/PachAkuti...')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(103): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/index.php(10): require_once('/home/PachAkuti...')
+#6 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/user.php on line 2063
+[13-Jul-2026 03:55:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_by() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/user.php:2063
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(11): username_exists('my_username')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(589): include_once('/home/PachAkuti...')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(103): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(13): require_once('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#6 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/user.php on line 2063
+[13-Jul-2026 04:02:17 UTC] PHP Parse error:  Unterminated comment starting line 11 in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 11
+[13-Jul-2026 17:47:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_by() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/user.php:2063
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(11): username_exists('my_username')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(589): include_once('/home/PachAkuti...')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(103): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/index.php(10): require_once('/home/PachAkuti...')
+#6 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/user.php on line 2063
+[13-Jul-2026 17:47:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_user_by() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/user.php:2063
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(11): username_exists('my_username')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(589): include_once('/home/PachAkuti...')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(103): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(13): require_once('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#6 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/user.php on line 2063
+[13-Jul-2026 18:00:10 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 66
+[13-Jul-2026 18:41:57 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "cmo_custom_user_profile_fields" not found or invalid function name in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/user-edit.php(149): do_action('personal_option...', 1)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/profile.php(18): require_once('/home/PachAkuti...')
+#4 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php on line 341
+[13-Jul-2026 18:43:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "cmo_custom_user_profile_fields" not found or invalid function name in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/user-edit.php(149): do_action('personal_option...', 1)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/profile.php(18): require_once('/home/PachAkuti...')
+#4 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php on line 341
+[15-Jul-2026 17:55:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function update() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php:13
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): cmo_add_meta('')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 13
+[15-Jul-2026 18:03:58 UTC] PHP Warning:  Array to string conversion in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 22
+[17-Jul-2026 16:56:06 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 66
+[18-Jul-2026 16:22:56 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_ }stuff WHERE ID = 1' at line 1 for query SELECT stuff FROM { wp_ }stuff WHERE ID = 1 made by require('wp-admin/edit-form-blocks.php'), block_editor_rest_api_preload, array_reduce, rest_preload_api_request, rest_do_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Posts_Controller->get_item, WP_REST_Posts_Controller->prepare_item_for_response, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, cmo_shortcode
+[18-Jul-2026 16:22:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_ }stuff WHERE ID = 1' at line 1 for query SELECT stuff FROM { wp_ }stuff WHERE ID = 1 made by require('wp-admin/edit-form-blocks.php'), block_editor_rest_api_preload, array_reduce, rest_preload_api_request, rest_do_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Posts_Controller->get_item, WP_REST_Posts_Controller->prepare_item_for_response, insert_hooked_blocks_into_rest_response, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, cmo_shortcode
+[18-Jul-2026 16:23:15 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wp_ }stuff WHERE ID = 1' at line 1 for query SELECT stuff FROM { wp_ }stuff WHERE ID = 1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('wp-includes/template-canvas.php'), get_the_block_template_html, do_blocks, render_block, WP_Block->render, WP_Block->render, WP_Block->render, render_block_core_post_content, apply_filters('the_content'), WP_Hook->apply_filters, do_shortcode, preg_replace_callback, do_shortcode_tag, cmo_shortcode
+[20-Jul-2026 00:06:59 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "" not found or invalid function name in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(180): do_action('admin_init')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/user/admin.php(12): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/user/index.php(11): require_once('/home/PachAkuti...')
+#5 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php on line 341
+[20-Jul-2026 00:16:54 UTC] PHP Parse error:  syntax error, unexpected token "}" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php on line 24
+[20-Jul-2026 03:30:25 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 03:30:46 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 03:30:47 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 03:30:56 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 03:30:59 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 03:31:30 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 03:32:18 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 03:32:24 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 04:20:20 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 04:21:04 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 04:25:03 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 04:25:35 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Jul-2026 04:27:03 UTC] Cron reschedule event error for hook: my_hook, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[21-Jul-2026 16:32:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "cmo_admin_var" not found or invalid function name in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(570): WP_Hook->do_action(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/admin-bar.php(97): do_action_ref_array('admin_bar_menu', Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): wp_admin_bar_render('')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin-header.php(277): do_action('in_admin_header')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/index.php(137): require_once('/home/PachAkuti...')
+#8 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php on line 341
+[21-Jul-2026 16:33:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "cmo_admin_var" not found or invalid function name in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php:341
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(570): WP_Hook->do_action(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/admin-bar.php(97): do_action_ref_array('admin_bar_menu', Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): wp_admin_bar_render('')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters('', Array)
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin-header.php(277): do_action('in_admin_header')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/index.php(137): require_once('/home/PachAkuti...')
+#8 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php on line 341
+[23-Jul-2026 16:48:14 UTC] PHP Warning:  Undefined variable $dropshipping_store_archive_year in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/dropshipping-store/template-parts/related-posts.php on line 26
+[23-Jul-2026 16:48:14 UTC] PHP Warning:  Undefined variable $dropshipping_store_archive_month in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/dropshipping-store/template-parts/related-posts.php on line 26
+[23-Jul-2026 16:48:14 UTC] PHP Warning:  Undefined variable $dropshipping_store_archive_day in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/dropshipping-store/template-parts/related-posts.php on line 26
+[23-Jul-2026 16:48:14 UTC] PHP Warning:  Undefined variable $dropshipping_store_archive_year in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/dropshipping-store/template-parts/related-posts.php on line 26
+[23-Jul-2026 16:48:14 UTC] PHP Warning:  Undefined variable $dropshipping_store_archive_month in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/dropshipping-store/template-parts/related-posts.php on line 26
+[23-Jul-2026 16:48:14 UTC] PHP Warning:  Undefined variable $dropshipping_store_archive_day in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/dropshipping-store/template-parts/related-posts.php on line 26
+[23-Jul-2026 16:48:14 UTC] PHP Warning:  Undefined variable $dropshipping_store_archive_year in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/dropshipping-store/template-parts/related-posts.php on line 26
+[23-Jul-2026 16:48:14 UTC] PHP Warning:  Undefined variable $dropshipping_store_archive_month in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/dropshipping-store/template-parts/related-posts.php on line 26
+[23-Jul-2026 16:48:14 UTC] PHP Warning:  Undefined variable $dropshipping_store_archive_day in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/dropshipping-store/template-parts/related-posts.php on line 26
+[25-Jul-2026 16:49:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_autor() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/single.php:9
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-loader.php(132): include()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(19): require_once('/home/PachAkuti...')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#3 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/single.php on line 9
+[26-Jul-2026 16:32:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dropshipping_store_credit() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php:100
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(814): require_once()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(749): load_template('/home/PachAkuti...', true, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/twentytwentyone/page.php(25): get_footer()
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-loader.php(132): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(19): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php on line 100
+[26-Jul-2026 20:24:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function business_point_get_option() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php:25
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(814): require_once()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(749): load_template('/home/PachAkuti...', true, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/twentytwentyone/page.php(25): get_footer()
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-loader.php(132): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(19): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php on line 25
+[26-Jul-2026 20:32:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function business_point_get_option() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php:25
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(814): require_once()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(749): load_template('/home/PachAkuti...', true, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/twentytwentyone/page.php(25): get_footer()
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-loader.php(132): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(19): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php on line 25
+[26-Jul-2026 20:35:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function business_point_get_option() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php:25
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(814): require_once()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(749): load_template('/home/PachAkuti...', true, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/twentytwentyone/page.php(25): get_footer()
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-loader.php(132): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(19): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php on line 25
+[26-Jul-2026 20:35:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function business_point_get_option() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php:25
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(814): require_once()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(749): load_template('/home/PachAkuti...', true, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/twentytwentyone/page.php(25): get_footer()
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-loader.php(132): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(19): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php on line 25
+[26-Jul-2026 20:37:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function business_point_get_option() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php:25
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(814): require_once()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(749): load_template('/home/PachAkuti...', true, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/twentytwentyone/page.php(25): get_footer()
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-loader.php(132): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(19): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php on line 25
+[26-Jul-2026 20:40:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function business_point_get_option() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php:25
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(814): require_once()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(749): load_template('/home/PachAkuti...', true, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/twentytwentyone/page.php(25): get_footer()
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-loader.php(132): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(19): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php on line 25
+[26-Jul-2026 20:44:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function business_point_get_option() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php:25
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(814): require_once()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template.php(749): load_template('/home/PachAkuti...', true, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/twentytwentyone/page.php(25): get_footer()
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/template-loader.php(132): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-blog-header.php(19): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/index.php(17): require('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/footer.php on line 25
+[26-Jul-2026 23:16:57 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/header.php on line 83
+[27-Jul-2026 00:38:52 UTC] PHP Fatal error:  Uncaught Error: Class "CMO_Widget" not found in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/widgets.php(123): WP_Widget_Factory->register('CMO_Widget')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(64): register_widget('CMO_Widget')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): cmo_inicializar_componentes_widgets('')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/widgets.php(1884): do_action('widgets_init')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): wp_widgets_init('')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#9 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(771): do_action('init')
+#10 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(103): require_once('/home/PachAkuti...')
+#11 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#12 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin-ajax.php(22): require_once('/home/PachAkuti...')
+#13 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-widget-factory.php on line 62
+[27-Jul-2026 00:38:53 UTC] PHP Fatal error:  Uncaught Error: Class "CMO_Widget" not found in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/widgets.php(123): WP_Widget_Factory->register('CMO_Widget')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(64): register_widget('CMO_Widget')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): cmo_inicializar_componentes_widgets('')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/widgets.php(1884): do_action('widgets_init')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): wp_widgets_init('')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#9 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(771): do_action('init')
+#10 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(103): require_once('/home/PachAkuti...')
+#11 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#12 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#13 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/themes.php(10): require_once('/home/PachAkuti...')
+#14 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-widget-factory.php on line 62
+[27-Jul-2026 00:39:51 UTC] PHP Fatal error:  Uncaught Error: Class "CMO_Widget" not found in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/widgets.php(123): WP_Widget_Factory->register('CMO_Widget')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php(64): register_widget('CMO_Widget')
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): cmo_inicializar_componentes_widgets('')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/widgets.php(1884): do_action('widgets_init')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): wp_widgets_init('')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#9 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(771): do_action('init')
+#10 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(103): require_once('/home/PachAkuti...')
+#11 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#12 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#13 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/themes.php(10): require_once('/home/PachAkuti...')
+#14 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-widget-factory.php on line 62
+[27-Jul-2026 00:56:03 UTC] PHP Fatal error:  Cannot redeclare cmo_renderizar_sidebar_shortcode() (previously declared in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp.php:72) in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-child-theme/functions.php on line 84
+[27-Jul-2026 16:11:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/rewrite.php:176
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-post-type.php(722): add_rewrite_tag('%iwp_repos%', '([^/]+)', 'iwp_repos=')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/post.php(1835): WP_Post_Type->add_rewrite_rules()
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp/intro-wp.php(13): register_post_type('iwp_repos', Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(589): include_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(103): require_once('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin-ajax.php(22): require_once('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/rewrite.php on line 176
+[27-Jul-2026 16:13:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_rewrite_tag() on null in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/rewrite.php:176
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-post-type.php(722): add_rewrite_tag('%iwp_repos%', '([^/]+)', 'iwp_repos=')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/post.php(1835): WP_Post_Type->add_rewrite_rules()
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/plugins/intro-wp/intro-wp.php(13): register_post_type('iwp_repos', Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(589): include_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(103): require_once('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin-ajax.php(22): require_once('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/rewrite.php on line 176
+[02-Aug-2026 20:00:01 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 6
+[02-Aug-2026 20:02:01 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 6
+[02-Aug-2026 20:04:01 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 6
+[02-Aug-2026 20:08:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 20:32:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 20:34:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 20:46:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 20:48:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 20:51:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 20:52:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:10:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:17:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:19:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:21:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:30:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:32:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:33:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:34:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:44:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:47:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:53:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:55:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:55:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:55:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:56:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:59:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 21:59:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:02:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:03:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:03:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:04:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:04:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:04:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:05:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:11:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:11:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:11:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:11:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:12:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:12:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:13:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:19:23 UTC] PHP Parse error:  syntax error, unexpected token ")" in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 29
+[02-Aug-2026 22:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:34:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:35:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:36:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:36:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:36:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:36:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:36:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:37:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:45:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:45:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 22:45:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:02:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:08:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:09:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:11:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:11:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:13:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:14:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:16:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:18:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:19:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:21:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:22:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:23:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:24:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:25:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:36:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:37:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:38:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:38:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:39:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:44:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:44:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:45:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:46:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:49:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:49:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:57:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:58:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:58:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[02-Aug-2026 23:58:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:01:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:02:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:04:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:05:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:05:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:05:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:05:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:05:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:05:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:05:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:13:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:16:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:36:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:37:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:40:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:40:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:40:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:43:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:43:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:45:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:46:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:47:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:47:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:47:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 00:53:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php:148
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php(134): Business_Point_About->setup_config()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/about.php(236): Business_Point_About::init(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/main.php(45): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/functions.php(230): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(739): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin-ajax.php(22): require_once('/home/PachAkuti...')
+#8 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php on line 148
+[03-Aug-2026 00:53:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php:148
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php(134): Business_Point_About->setup_config()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/about.php(236): Business_Point_About::init(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/main.php(45): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/functions.php(230): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(739): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin-ajax.php(22): require_once('/home/PachAkuti...')
+#8 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php on line 148
+[03-Aug-2026 00:53:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php:148
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php(134): Business_Point_About->setup_config()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/about.php(236): Business_Point_About::init(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/main.php(45): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/functions.php(230): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(739): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/options-reading.php(10): require_once('/home/PachAkuti...')
+#9 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php on line 148
+[03-Aug-2026 00:54:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php:148
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php(134): Business_Point_About->setup_config()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/about.php(236): Business_Point_About::init(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/main.php(45): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/functions.php(230): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(739): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/options-reading.php(10): require_once('/home/PachAkuti...')
+#9 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php on line 148
+[03-Aug-2026 00:54:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php:148
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php(134): Business_Point_About->setup_config()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/about.php(236): Business_Point_About::init(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/main.php(45): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/functions.php(230): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(739): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/edit.php(10): require_once('/home/PachAkuti...')
+#9 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php on line 148
+[03-Aug-2026 00:54:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php:148
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php(134): Business_Point_About->setup_config()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/about.php(236): Business_Point_About::init(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/main.php(45): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/functions.php(230): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(739): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/post.php(12): require_once('/home/PachAkuti...')
+#9 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php on line 148
+[03-Aug-2026 00:54:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php:148
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php(134): Business_Point_About->setup_config()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/about.php(236): Business_Point_About::init(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/main.php(45): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/functions.php(230): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(739): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/post.php(12): require_once('/home/PachAkuti...')
+#9 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php on line 148
+[03-Aug-2026 00:54:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php:148
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php(134): Business_Point_About->setup_config()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/about.php(236): Business_Point_About::init(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/main.php(45): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/functions.php(230): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(739): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/post.php(12): require_once('/home/PachAkuti...')
+#9 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php on line 148
+[03-Aug-2026 00:54:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get() on bool in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php:148
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php(134): Business_Point_About->setup_config()
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/about.php(236): Business_Point_About::init(Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/main.php(45): require_once('/home/PachAkuti...')
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/functions.php(230): require_once('/home/PachAkuti...')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(739): include('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#8 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/edit.php(10): require_once('/home/PachAkuti...')
+#9 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/business-point/includes/theme-info/class-about.php on line 148
+[03-Aug-2026 01:14:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:15:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:15:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:16:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:18:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:18:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:18:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:22:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:23:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:23:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:24:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:25:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:25:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:25:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:26:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:27:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:28:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:29:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:30:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:30:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:59:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 01:59:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 02:13:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 02:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 02:25:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 02:33:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 02:37:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[03-Aug-2026 02:43:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:14:10 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:11 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:13 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:16 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:19 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:26 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:26 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:26 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:36 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:41 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:41 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:14:51 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:15:01 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:15:11 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:15:21 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:15:31 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:15:41 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:15:51 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:16:01 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:16:10 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:16:11 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:16:18 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:16:26 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:16:26 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:16:47 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:16:48 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:16:54 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:16:55 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:17:00 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:17:01 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:17:05 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:17:05 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:17:15 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:17:25 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:17:35 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:17:45 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:17:55 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:18:05 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:18:15 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:18:25 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:18:35 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:18:45 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:18:55 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:19:05 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:19:15 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:19:25 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:19:35 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:19:45 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:21:22 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:21:26 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:21:30 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:21:30 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:21:40 UTC] PHP Warning:  Undefined variable $labels in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 60
+[04-Aug-2026 17:23:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:24:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:25:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:25:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:25:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:27:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:27:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:27:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:27:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:27:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:36:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:37:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:37:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:41:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:42:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:42:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:42:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:42:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:43:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:44:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:44:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:44:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:44:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:44:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:45:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:45:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:45:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[04-Aug-2026 17:45:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[05-Aug-2026 17:05:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_settings_section() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php:57
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): wpdev_register_settings('')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(771): do_action('init')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin-ajax.php(22): require_once('/home/PachAkuti...')
+#7 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 57
+[05-Aug-2026 17:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_settings_section() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php:57
+Stack trace:
+#0 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(341): wpdev_register_settings('')
+#1 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-settings.php(771): do_action('init')
+#4 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-config.php(112): require_once('/home/PachAkuti...')
+#5 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-load.php(50): require_once('/home/PachAkuti...')
+#6 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/admin.php(35): require_once('/home/PachAkuti...')
+#7 /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-admin/themes.php(10): require_once('/home/PachAkuti...')
+#8 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 57
+[05-Aug-2026 17:19:11 UTC] PHP Warning:  Undefined variable $args in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 93
+[07-Aug-2026 15:08:04 UTC] PHP Warning:  Undefined variable $args in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 93
+[07-Aug-2026 15:08:06 UTC] PHP Warning:  Undefined variable $args in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 93
+[07-Aug-2026 15:08:07 UTC] PHP Warning:  Undefined variable $args in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 93
+[07-Aug-2026 15:08:10 UTC] PHP Warning:  Undefined variable $args in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 93
+[07-Aug-2026 15:08:14 UTC] PHP Warning:  Undefined variable $args in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 93
+[07-Aug-2026 15:08:19 UTC] PHP Warning:  Undefined variable $args in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 93
+[07-Aug-2026 15:08:19 UTC] PHP Warning:  Undefined variable $args in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 93
+[07-Aug-2026 15:08:20 UTC] PHP Warning:  Undefined variable $args in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 93
+[07-Aug-2026 15:09:19 UTC] PHP Warning:  Undefined variable $args in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/functions.php on line 93
+[07-Aug-2026 15:11:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[07-Aug-2026 15:14:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[07-Aug-2026 15:17:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[07-Aug-2026 15:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[07-Aug-2026 15:17:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[07-Aug-2026 15:17:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[07-Aug-2026 15:34:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[07-Aug-2026 15:34:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2
+[07-Aug-2026 15:34:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/PachAkuti/Local Sites/wordpresscourse/app/public/wp-content/themes/wp-dev/index.php on line 2

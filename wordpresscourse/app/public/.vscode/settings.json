@@ -1,0 +1,18 @@
+{
+    "intelephense.stubs": [
+        "apache",
+        "Core",
+        "standard",
+        "wordpress"
+    ],
+    "intelephense.environment.includePaths": [
+        "vendor/php-stubs/wordpress-stubs/wordpress-stubs.php"
+    ],
+    "files.exclude": {
+        "wp-admin": true,
+        "wp-includes": true,
+        "wp-content/plugins": false,
+        "wp-content/themes": false,
+        "vendor": true
+      }
+}

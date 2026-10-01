@@ -1,0 +1,92 @@
+/*
+Theme Name: My Special Theme
+Theme URI: https://www.google.com
+Author: Cristian Martin Orozco
+Description: Nice business theme with multiple layouts
+Template: business-point
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.google.com
+Text Domain: business-Point
+Tags: right-sidebar
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 75%;
+    margin: 40px auto;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    border: 2px solid #94016B;
+}
+
+
+/*************
+ HEADER
+*************/
+header {
+    text-align: center;
+    background-color: #6ED349;  
+    padding: 20px 0;
+}
+
+/*************
+ NAVIGATION
+*************/
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+}
+nav a {
+    color: #94016B;
+    text-decoration: none;
+}
+
+/*************
+ FOOTER
+*************/
+.twitter-stuff {
+    padding: 3px 5px;
+    border-radius: 10px;
+    transition-duration: .5s;
+    display: inline-block;
+    font-weight: bold;
+    background-color: #0084b4;
+    color: white;
+    text-decoration: none;
+}
+
+.twitter-stuff:hover {
+    transform: scale(1.2);
+    cursor:pointer;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #6ED349;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+
+/*************
+ STORE
+*************/
+
+.store.product {
+    border: 2px solid #6ED349;
+}

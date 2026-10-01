@@ -1,0 +1,13 @@
+.my-div {
+    color: blue;
+    font-size: 24px;
+}
+
+.recent-stuff {
+    color: blue;
+    font-size: 18px;
+}
+
+body.wp-admin {
+    background-color: lightblue;
+}

@@ -1,0 +1,4 @@
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using localhost.localdomain. Set the 'ServerName' directive globally to suppress this message
+[Sun Feb 01 16:09:20.871248 2026] [mpm_event:notice] [pid 4133:tid 140590553605056] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sun Feb 01 16:09:20.871960 2026] [core:notice] [pid 4133:tid 140590553605056] AH00094: Command line: '/home/PachAkuti/.config/Local/lightning-services/apache-2.4.43+11/bin/linux/bin/httpd -D FOREGROUND -f /home/PachAkuti/.config/Local/run/frOCJWtXX/conf/apache/apache2.conf'
+[Sun Feb 01 16:12:02.496448 2026] [mpm_event:notice] [pid 4133:tid 140590553605056] AH00491: caught SIGTERM, shutting down

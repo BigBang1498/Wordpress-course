@@ -1,0 +1,51 @@
+/*
+Theme Name: Intro To WP Child Theme
+Theme URI: https://www.google.com
+Author: Cristian Martin Orozco
+Description: Some description
+Template: 
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.google.com
+Text Domain: business-Point
+Tags: right-sidebar
+*/
+
+.my-post {
+    border: 5px dashed lightblue;
+}
+/*************
+Privacy Page Stuff
+*************/
+.policy-page {
+    background-color: crimson;
+    font-size: 10px;
+}
+.page-id-3 .inner-wrapper {
+    display: flex;
+}
+.inner-wrapper article {
+    flex-grow: 100;
+}
+#privacy-widgets {
+    border: 2px solid #eee;
+}
+#privacy-widgets .widget {
+    margin-bottom: 20px;
+}
+#landing-footer {
+    background-color: #303133;
+    text-align: center;
+}
+.terms-page {
+    background-color: lightcoral;
+    font-size: 15px;
+    margin: 35px 20px;
+}
+#my-footer {
+    list-style: none;
+}
+
+#my-footer li {
+    display: inline;
+}

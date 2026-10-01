@@ -1,0 +1,9 @@
+/**
+* Plugin Name:
+* Description:
+* Version:
+* Author:
+* Author URI:
+* Plugin URI:
+* 
+*/
